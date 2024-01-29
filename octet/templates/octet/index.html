@@ -1,0 +1,143 @@
+{% extends 'octet/base.html' %}
+
+{%block title %}Welcome {% endblock %}
+
+
+{% block content %}
+<div class="h-screen w-screen overflow-hidden relative">
+    <div class="absolute inset-0 z-10">
+      <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+        <section class=" hero ">
+            
+            <div class="flex items-center justify-center h-screen bg-gray-100 rounded">
+                <div class="max-w-lg text-center ">
+                    <div id="animatedText" class=" text-3xl">Experience the Future of Tech with <b>Octet Systems</b></div>
+                        <script >
+                            new TypeIt('#animatedText', {
+                            strings: 'Simplify your life with <b>Octet Systems</b> innovative solutions.',
+                            speed: 75,
+                            loop: true,
+                            }).go();
+                        </script>
+                        <br>
+                        <a href="#" class="button px-4 py-2 text-lg text-white bg-blue-600 hover:bg-blue-900 rounded-md mb-6">Learn More</a>
+    
+                    </div>
+        
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+    
+   </div>
+   <!-- ... -->
+   
+   <section class="py-12  overflow-hidden">
+       <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">Our Services</h2>
+       <div class="flex  space-x-4 ">
+            <div class="card ml-6 rounded-lg shadow-md overflow-hidden">
+                <img src="static/product1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">Computer Networks</h3>
+                    <p class="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="card ml-6 rounded-lg shadow-md overflow-hidden">
+                <img src="static/product1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">Computer Networks</h3>
+                    <p class="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="card ml-6 rounded-lg shadow-md overflow-hidden">
+                <img src="static/product1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">Computer Networks</h3>
+                    <p class="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="card ml-6 rounded-lg shadow-md overflow-hidden">
+                <img src="static/product1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">Computer Networks</h3>
+                    <p class="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="card ml-6 rounded-lg shadow-md overflow-hidden">
+                <img src="static/product1.jpg" alt="Product 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold mb-2 text-gray-800">Computer Networks</h3>
+                    <p class="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+           
+        </div>
+       </div>
+       <br>
+   </section>
+  <!--ABOUT US -->
+  <div class="mb-60 relative">
+    <div class="flex justify-end">
+        <div class="container mx-auto">
+            <div class="relative z-10">
+                <h2 class="text-2xl font-semibold mb-30">WHAT CAN WE DO FOR YOU <hr class = "flex"> </h2>
+                <div class="flex flex-wrap justify-between mb-20">
+                    <!-- Service Box 1 -->
+                    <div class="w-full md:w-1/3 p-4">
+                        <a href="/services/digital-transformation/" class="flex flex-col items-center text-center">
+                            <div class="w-18 h-18 mb-4">
+                                <img src="/connection.gif" alt="Description of the GIF">
+                            </div>
+                            <h3 class="text-lg font-semibold underline decoration-solid">Computer Networks</h3>
+                            <p>Use tech, data, and cloud to reshape products, operations, and competitive advantage</p>
+                        </a>
+                    </div>
+                    <!-- Service Box 2 -->
+                    <div class="w-full md:w-1/3 p-4">
+                        <a href="/services/networks/" class="flex flex-col items-center text-center">
+                            <div class="w-18 h-18 mb-4 w-auto">
+                                <img src="network.png" alt="Networks PNG">
+                            </div>
+                            <h3 class="text-lg font-semibold underline decoration-solid">Cyber Security</h3>
+                            <p>Leverage actionable insights, automate complex processes, and personalize experiences</p>
+                        </a>
+                    </div>
+                    <!-- Service Box 3 -->
+                    <div class="w-full md:w-1/3 p-4">
+                        <a href="/services/product-development/" class="flex flex-col items-center text-center">
+                            <div class="w-18 h-18 mb-4">
+                                <!-- SVG Icon -->
+                            </div>
+                            <h3 class="text-lg font-semibold underline decoration-solid">Product Development</h3>
+                            <p>Launch new products and platforms with cloud, IoT, AI, and other emerging techs</p>
+                        </a>
+                    </div>
+                    <br>
+                    <!-- Service Box 4 -->
+                    <div class="w-full md:w-1/3 p-4">
+                        <a href="/services/securitysystems/" class="flex flex-col items-center text-center">
+                            <div class="w-18 h-18 mb-4">
+                                <!-- SVG Icon -->
+                            </div>
+                            <h3 class="text-lg font-semibold underline decoration-solid">CCTV Installation</h3>
+                            <p>Launch new products and platforms with cloud, IoT, AI, and other emerging techs</p>
+                        </a>
+                    </div>
+
+                    <div class="flex items-center justify-center">
+                        <a href="{% url 'services:services' %}" class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-blue-700">
+                            Explore all services
+                            <!-- SVG Icon -->
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+    </section>
+<br>
+    
+   <br>
+   {% endblock %}
